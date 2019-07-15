@@ -1,2 +1,0 @@
-ruby -e '$stdout.puts $stdin.read.gsub(/\t/, " ")'
-
