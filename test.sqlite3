@@ -1,0 +1,10 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Test (
+    id integer PRIMARY KEY,
+    Word varchar,
+    Notes varchar
+);
+INSERT INTO Test VALUES(1,'testing123',NULL);
+INSERT INTO Test VALUES(2,'testing again',NULL);
+COMMIT;
