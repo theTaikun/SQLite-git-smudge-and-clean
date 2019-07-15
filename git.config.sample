@@ -1,3 +1,0 @@
-[filter "tabs-to-spaces"]
-	clean = /path/to/clean
-	smudge = /path/to/smudge
