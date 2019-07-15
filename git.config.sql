@@ -1,3 +1,3 @@
 [filter "sqlite3-sql"]
-	clean = ~/bin/clean
-	smudge = ~/bin/smudge
+	clean = ~/bin/clean %f
+	smudge = ~/bin/smudge %f
